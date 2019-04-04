@@ -9,7 +9,7 @@ import org.junit.Test;
 
 
 
-public class crappyTest {
+public class furqanTest {
     String x = "Furkan";
     String z = "Gencer";
     String Anka = "kalle";
