@@ -1,9 +1,9 @@
 
-import main.java.junit.project.Store;
+import junit.project.Store;
+import junit.project.setResponse;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import main.java.junit.project.setResponse;
 
 
 public class StoreTest {
@@ -15,8 +15,6 @@ public class StoreTest {
     public void setup() {
         test = new Store();
         learn = new setResponse();
-
-
     }
 
    /* public void setResponses() {

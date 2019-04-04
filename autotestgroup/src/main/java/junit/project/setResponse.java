@@ -1,4 +1,4 @@
-package main.java.junit.project;
+package junit.project;
 
 public class setResponse {
     Store test = new Store();

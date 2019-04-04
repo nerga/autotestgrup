@@ -1,7 +1,6 @@
 
-import main.java.junit.project.RequestResponse;
-import main.java.junit.project.Store;
-import org.bouncycastle.cert.ocsp.Req;
+import junit.project.RequestResponse;
+import junit.project.Store;
 import org.junit.*;
 import org.junit.Test;
 
