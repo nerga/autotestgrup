@@ -1,13 +1,13 @@
 package main.java.junit.project;
 
 public class setResponse {
-    Store test = new Store();
+    ProjectHooks test = new ProjectHooks();
     String response;
     String request;
 
 
     public void storeResponseRequest(String request, String response) {
-        test.learnResponse(request, response);
+        ProjectHooks.getWorld().test.learnResponse(request, response);
         this.request = request;
         this.response = response;
 

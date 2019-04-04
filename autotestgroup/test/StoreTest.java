@@ -1,4 +1,5 @@
 
+import main.java.junit.project.ProjectHooks;
 import main.java.junit.project.Store;
 import org.junit.Assert;
 import org.junit.Before;
@@ -8,12 +9,11 @@ import main.java.junit.project.setResponse;
 
 public class StoreTest {
 
-    Store test;
     setResponse learn;
 
     @Before
     public void setup() {
-        test = new Store();
+        ProjectHooks.getWorld();
         learn = new setResponse();
 
 
@@ -28,9 +28,9 @@ public class StoreTest {
     public void happyPath() {
 
         learn.storeResponseRequest("Hej","då");
-        Assert.assertEquals("då", test.getResponse("Hej"));
-        test.unlearnAll();
-        Assert.assertEquals(null, test.getResponse("Hej"));
+        Assert.assertEquals("då", ProjectHooks.getWorld().getTest().getResponse("Hej"));
+        ProjectHooks.getWorld().getTest().unlearnAll();
+        Assert.assertEquals(null, ProjectHooks.getWorld().getTest().getResponse("Hej"));
 
     }
 }
