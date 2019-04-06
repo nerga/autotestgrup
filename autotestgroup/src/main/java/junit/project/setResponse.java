@@ -11,6 +11,7 @@ public class setResponse {
     public String storeResponseRequest(String request, String response) {
 
         store.learnResponse(request, response);
+
         this.request = request;
         this.response = response;
         return request;
@@ -21,8 +22,13 @@ public class setResponse {
     public void unlearn(){
         store.unlearnAll();
     }
+
+
     public String getResponse(String request){
+        storeResponseRequest(request,response);
+        
         store.getResponse(request);
+
         this.request = request;
         return request;
 

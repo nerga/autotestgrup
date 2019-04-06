@@ -22,23 +22,33 @@ public class StoreTest {
 
     }
 
-   /* public void setResponses() {
+    /*public void setResponses() {
 
-        test.learnResponse("Hej", "då");
+        store.learnResponse("Hej", "då");
     }*/
 
     @Test
     public void happyPath() {
 
-        learn.storeResponseRequest("Hej","då");
-        Assert.assertEquals("då", learn.getResponse("Hej"));
+        String request = "Hej";
+        String response = "då";
+
+        learn.storeResponseRequest(request,response);
+        Assert.assertEquals(response, learn.getResponse(request));
         learn.unlearn();
-        Assert.assertEquals(null, learn.getResponse("Hej"));
+        Assert.assertEquals(null, learn.getResponse(request));
 
     }
 
     @Test
     public void aTestThatWorks(){
+
+        Store store = new Store();
+        store.learnResponse("Hej", "då");
+        Assert.assertEquals("då", store.getResponse("Hej"));
+        store.unlearnAll();
+        Assert.assertEquals(null, store.getResponse("Hej"));
+
 
 
     }
