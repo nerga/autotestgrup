@@ -3,21 +3,21 @@ import main.java.junit.project.Store;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import main.java.junit.project.setResponse;
+import main.java.junit.project.Client;
 
 
 
 public class StoreTest {
 
 
-    setResponse learn;
+    Client learn;
 
 
 
     @Before
     public void setup() {
 
-        learn = new setResponse();
+        learn = new Client();
 
 
     }
@@ -29,14 +29,11 @@ public class StoreTest {
 
     @Test
     public void happyPath() {
-
-        String request = "Hej";
-        String response = "då";
-
-        learn.storeResponseRequest(request,response);
-        Assert.assertEquals(response, learn.getResponse(request));
+        
+        learn.storeResponseRequest("Hej","då");
+        Assert.assertEquals("då", learn.getResponse("Hej"));
         learn.unlearn();
-        Assert.assertEquals(null, learn.getResponse(request));
+        Assert.assertEquals(null,learn.getResponse("Hej"));
 
     }
 

@@ -1,20 +1,18 @@
 package main.java.junit.project;
 
-public class setResponse {
+public class Client {
 
 
     Store store = new Store();
-    String request;
+
     String response;
+    String request;
 
-
-    public String storeResponseRequest(String request, String response) {
+    public void storeResponseRequest(String request, String response) {
 
         store.learnResponse(request, response);
-
-        this.request = request;
         this.response = response;
-        return request;
+        this.request = request;
 
     }
 
@@ -26,11 +24,9 @@ public class setResponse {
 
     public String getResponse(String request){
         storeResponseRequest(request,response);
-        
         store.getResponse(request);
+        return response;
 
-        this.request = request;
-        return request;
 
     }
 

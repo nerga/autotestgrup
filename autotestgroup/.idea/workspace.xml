@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caad2572-f2c3-474b-bcf7-012edd278906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junit/project/setResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/project/setResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/junit/project/setResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/project/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/furqanTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../iths-testautomation" beforeDir="false" afterPath="$PROJECT_DIR$/../iths-testautomation" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +25,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="290">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding>
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/RequestResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="358">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="e#297#298#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -53,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/StoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="34">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,10 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/setResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="272">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -93,9 +97,9 @@
         <option value="$PROJECT_DIR$/test/furqanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/junit/project/ProjectWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/junit/project/ProjectHooks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/junit/project/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/junit/project/Storesetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/junit/project/setResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/junit/project/Client.java" />
         <option value="$PROJECT_DIR$/test/StoreTest.java" />
       </list>
     </option>
@@ -157,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554537411241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554543932978" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../iths-testautomation" />
@@ -186,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StoreTest.happyPath">
+  <component name="RunManager" selected="JUnit.StoreTest.aTestThatWorks">
     <configuration name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autotestgroup" />
       <option name="PACKAGE_NAME" value="" />
@@ -238,8 +242,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StoreTest.happyPath" />
         <item itemvalue="JUnit.StoreTest.aTestThatWorks" />
+        <item itemvalue="JUnit.StoreTest.happyPath" />
         <item itemvalue="JUnit.StoreTest" />
         <item itemvalue="JUnit.furqanTest.testafunktionalitet" />
         <item itemvalue="JUnit.furqanTest.setresponserinos" />
@@ -260,34 +264,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 06h 45m 19s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 34m 56s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 06h 46m 03s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 35m 09s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 06h 46m 32s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 36m 07s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 09h 31m 42s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 36m 17s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 09h 33m 29s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 37m 18s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 09h 34m 25s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 37m 34s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_aTestThatWorks - 2019.04.06 at 09h 47m 54s.xml">
-      <configuration name="StoreTest.aTestThatWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoreTest_aTestThatWorks - 2019.04.06 at 09h 50m 46s.xml">
-      <configuration name="StoreTest.aTestThatWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 09h 51m 08s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 38m 03s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreTest_happyPath - 2019.04.06 at 09h 51m 54s.xml">
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 38m 22s.xml">
+      <configuration name="StoreTest.happyPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 48m 38s.xml">
+      <configuration name="StoreTest.happyPath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoreTest_happyPath - 2019.04.06 at 10h 52m 07s.xml">
       <configuration name="StoreTest.happyPath" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -295,7 +299,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25503355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25503355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,8 +307,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,22 +402,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/setResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="290">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/RequestResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="358">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
@@ -427,10 +428,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/junit/project/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="34">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
